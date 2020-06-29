@@ -1,0 +1,5 @@
+require("prototypes/ammo")
+require("prototypes/items")
+require("prototypes/item-subgroups")
+require("prototypes/recipes")
+require("prototypes/shortcuts")

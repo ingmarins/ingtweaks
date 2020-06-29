@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 29. 6. 2020.
+  Bugfixes:
+    - Fixed Quickbuilder returning Blasting charge
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 29. 6. 2020
+  Bugfixes:
+    - Fixed Quickbuilder not returning tile when building over it
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 20. 6. 2020
+  Features:
+    - Added Quickbuilder to build all tile ghosts in selected area
+    - Added option (on by default) to add fuel value back to Wooden chest and Small electric pole
+    - Added option (on by default) to change item and recipe sorting
