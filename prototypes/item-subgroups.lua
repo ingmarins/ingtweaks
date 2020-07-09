@@ -140,3 +140,5 @@ if settings.startup["order-tweaks"] then
     }    
   })
 end
+data.raw["item-subgroup"]["sct-sciencepack-mil"].order = "f[mil]"
+data.raw["item-subgroup"]["sct-sciencepack-3"].order = "g[t3}"

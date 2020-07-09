@@ -222,6 +222,13 @@ if settings.startup["order-tweaks"] then
     data.raw.item["burner-lab"].order = "a[labs]-a[lab0]"
   end
   
+  -- petrochem-refining-buildings
+    -- petrochem-buildings-electrolyser
+  if data.raw.item["electrolyser-5"] ~= nil then
+    data.raw.item["electrolyser-5"].subgroup = "petrochem-buildings-electrolyser"
+    data.raw.item["electrolyser-5"].order = "aa[bobs-electrolyser]-e"
+  end
+  
   -- resource-refining
     -- refining-buildings
   if data.raw.item["filtration-unit-2"] ~= nil then
